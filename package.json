@@ -1,0 +1,23 @@
+{
+  "name": "url_shortener_microservice",
+  "version": "0.0.1",
+  "description": "URL Shortener Microservice app using Node.js, Express.js, and MongoDB.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "engines": {
+    "node": "^8.7.0"
+  },
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "mongoose": "^4.12.3",
+    "valid-url": "^1.0.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/incredul0us/url_shortener_microservice.git"
+  },
+  "author": "incredulous"
+}

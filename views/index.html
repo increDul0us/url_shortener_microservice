@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+     <title>URL Shortener Microservice </title>
+     <meta charset="utf-8">      
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+     <link href="/public/css/style.css" rel="stylesheet" type="text/css">
+     <link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.2/css/font-awesome.min.css">
+   </head>
+
+   <body>
+      <div class="container">
+        <div class="well">
+         <h1 >URL Shortener Microservice </h1>
+         <p>
+          This service accepts a URL as a parameter and will check whether it follows the valid  http://www.example.com format. 
+          If the URL is valid, it will return both the original URL and shortened URL in the JSON response. If it is not, 
+          the JSON response will contain an error instead. When you visit that shortened URL, it will redirect you to the original link.
+         </p>
+       
+         <h2>Example Creation Usage</h2>
+         <p>Add the URL to path https://localhost:3000/new/[URL]  as below:</p>
+        
+         <h4>Valid URL example</h4>
+         <code>https://localhost:3000/new/https://www.github.com</code>
+         <br>
+
+         <h2>Example Creation Output</h2>
+         <h3>Valid URL example JSON response</h3>
+         <code>{
+           <br>  original_url: "https://www.github.com", 
+           <br>
+                 shortened_url: "https://localhost:3000/29183"
+           <br>
+           }
+         </code>
+
+
+          <p>Enjoy! &#128153;</p>
+         
+        </div> <!-- well -->
+        <footer>
+          <p>Github Repo <a href="https://github.com/incredul0us/url_shortener_microservice" target="_blank">
+          <span class="fa fa-github"></span>
+        </a></p>
+          <p>
+            Built by <a href="https://github.com/incredul0us/" target="_blank">incredul0us</a>
+          </p>
+          </footer>
+      </div> <!-- container -->
+   </body>
+
+</html>
